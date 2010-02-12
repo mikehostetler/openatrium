@@ -1,5 +1,5 @@
 <?php
-// $Id: openatrium.profile,v 1.1 2010/02/11 17:24:42 jmiccolis Exp $
+// $Id: openatrium.profile,v 1.2 2010/02/12 20:26:32 jmiccolis Exp $
 
 /**
  * Implementation of hook_profile_details().
@@ -100,7 +100,7 @@ function _openatrium_atrium_modules() {
     // Determine fate of shoutbox.
     'messaging_shoutbox',
     // Notifications
-    // 'mail2web', 'mailhandler',
+    //'mailhandler', 'mailcomment',
     'notifications_team',
     // Content profile
     'content_profile',
