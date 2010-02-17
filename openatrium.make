@@ -1,4 +1,4 @@
-;$Id;
+; $Id: openatrium.make,v 1.12 2010/02/17 20:45:53 jmiccolis Exp $
 core = "6.x"
 
 ; Contrib projects 
