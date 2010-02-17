@@ -1,5 +1,5 @@
 <?php
-// $Id: openatrium.profile,v 1.4 2010/02/17 18:22:55 yhahn Exp $
+// $Id: openatrium.profile,v 1.5 2010/02/17 20:07:21 yhahn Exp $
 
 /**
  * Implementation of hook_profile_details().
@@ -37,10 +37,10 @@ function openatrium_profile_modules() {
     'views', 'litenode',
     // OG
     'og', 'og_access', 'og_actions', 'og_views',
-    // Context
-    'context', 'context_ui', 'context_layouts',
     // CTools
     'ctools',
+    // Context
+    'context', 'context_ui', 'context_layouts',
     // Date
     'date_api', 'date_timezone',
     // Features
