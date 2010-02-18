@@ -1,4 +1,4 @@
-; $Id: openatrium.make,v 1.17 2010/02/18 07:13:22 yhahn Exp $
+; $Id: openatrium.make,v 1.18 2010/02/18 18:45:14 jmiccolis Exp $
 core = "6.x"
 
 ; Contrib projects 
@@ -156,7 +156,7 @@ projects[simpletest][version] = "2.8"
 
 ; Features
 projects[atrium_features][location] = "http://code.developmentseed.org/fserver"
-projects[atrium_features][version] = "1.0-alpha2"
+projects[atrium_features][version] = "1.0-alpha3"
 
 ; l10n
 projects[core_translation][subdir] = "l10n"
@@ -180,7 +180,7 @@ projects[rubik][location] = "http://code.developmentseed.org/fserver"
 projects[rubik][version] = "1.0-beta6"
 
 projects[ginkgo][location] = "http://code.developmentseed.org/fserver"
-projects[ginkgo][version] = "1.0-alpha2"
+projects[ginkgo][version] = "1.0-alpha3"
 
 ; Libraries
 libraries[jquery_ui][download][type] = "get"
