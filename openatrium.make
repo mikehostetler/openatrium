@@ -1,4 +1,4 @@
-; $Id: openatrium.make,v 1.18 2010/02/18 18:45:14 jmiccolis Exp $
+; $Id: openatrium.make,v 1.19 2010/02/20 18:28:10 yhahn Exp $
 core = "6.x"
 
 ; Contrib projects 
@@ -155,8 +155,11 @@ projects[simpletest][subdir] = "developer"
 projects[simpletest][version] = "2.8"
 
 ; Features
-projects[atrium_features][location] = "http://code.developmentseed.org/fserver"
-projects[atrium_features][version] = "1.0-alpha3"
+; projects[atrium_features][location] = "http://code.developmentseed.org/fserver"
+; projects[atrium_features][version] = "1.0-alpha3"
+projects[atrium_features][type] = "module"
+projects[atrium_features][download][type] = "git"
+projects[atrium_features][download][url] = "git://github.com/developmentseed/atrium_features.git"
 
 ; l10n
 projects[core_translation][subdir] = "l10n"
@@ -179,8 +182,11 @@ projects[tao][version] = "1.9"
 projects[rubik][location] = "http://code.developmentseed.org/fserver"
 projects[rubik][version] = "1.0-beta6"
 
-projects[ginkgo][location] = "http://code.developmentseed.org/fserver"
-projects[ginkgo][version] = "1.0-alpha3"
+; projects[ginkgo][location] = "http://code.developmentseed.org/fserver"
+; projects[ginkgo][version] = "1.0-alpha3"
+projects[ginkgo][type] = "theme"
+projects[ginkgo][download][type] = "git"
+projects[ginkgo][download][url] = "git://github.com/developmentseed/ginkgo.git"
 
 ; Libraries
 libraries[jquery_ui][download][type] = "get"
