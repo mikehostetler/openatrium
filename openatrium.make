@@ -1,4 +1,4 @@
-; $Id: openatrium.make,v 1.25 2010/02/23 16:14:03 jmiccolis Exp $
+; $Id: openatrium.make,v 1.26 2010/02/23 16:51:18 yhahn Exp $
 core = "6.x"
 
 ; Contrib projects 
@@ -10,11 +10,7 @@ projects[boxes][subdir] = "contrib"
 projects[boxes][version] = "1.0-beta2"
 
 projects[casetracker][subdir] = "contrib"
-; projects[casetracker][version] = "1.0-beta5"
-projects[casetracker][type] = "module"
-projects[casetracker][download][type] = "cvs"
-projects[casetracker][download][module] = "contributions/modules/casetracker"
-projects[casetracker][download][revision] = "DRUPAL-6--1"
+projects[casetracker][version] = "1.0-beta6"
 
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.6"
