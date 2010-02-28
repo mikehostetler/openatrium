@@ -1,5 +1,3 @@
-# $Id: README.txt,v 1.6 2010/02/28 16:55:01 yhahn Exp $
-
-Open Atrium 1.0 Beta 6-dev
+# $Id: README.txt,v 1.7 2010/02/28 17:05:50 yhahn Exp $
 
 For more information visit: http://openatrium.com
