@@ -1,13 +1,13 @@
-; $Id: openatrium.make,v 1.28 2010/02/28 16:54:26 yhahn Exp $
+; $Id: openatrium.make,v 1.29 2010/02/28 17:32:24 yhahn Exp $
 core = "6.x"
 
 ; Contrib projects 
 
 projects[admin][subdir] = "contrib"
-projects[admin][version] = "2.0-beta1"
+projects[admin][version] = "2.0-beta2"
 
 projects[boxes][subdir] = "contrib"
-projects[boxes][version] = "1.0-beta2"
+projects[boxes][version] = "1.0-beta3"
 
 projects[casetracker][subdir] = "contrib"
 projects[casetracker][version] = "1.0-beta6"
@@ -44,7 +44,7 @@ projects[features][subdir] = "contrib"
 projects[features][version] = "1.0-beta6"
 
 projects[feeds][subdir] = "contrib"
-projects[feeds][version] = "1.0-alpha11"
+projects[feeds][version] = "1.0-alpha12"
 
 projects[imageapi][subdir] = "contrib"
 projects[imageapi][version] = "1.6"
