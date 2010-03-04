@@ -1,4 +1,4 @@
-; $Id: openatrium.make,v 1.31 2010/03/01 05:25:00 yhahn Exp $
+; $Id: openatrium.make,v 1.32 2010/03/04 16:37:40 yhahn Exp $
 core = "6.x"
 
 ; Contrib projects 
@@ -41,7 +41,11 @@ projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.1-alpha3"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-beta6"
+; projects[features][version] = "1.0-beta6"
+projects[features][type] = "module"
+projects[features][download][type] = "cvs"
+projects[features][download][module] = "contributions/modules/features"
+projects[features][download][revision] = "DRUPAL-6--1"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "1.0-alpha12"
@@ -107,9 +111,6 @@ projects[transliteration][version] = "2.1"
 
 projects[ucreate][subdir] = "contrib"
 projects[ucreate][version] = "1.0-beta3"
-
-projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "1.9"
 
 ; Patched
 projects[ctools][subdir] = "contrib"
