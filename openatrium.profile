@@ -1,5 +1,5 @@
 <?php
-// $Id: openatrium.profile,v 1.7 2010/03/01 05:25:14 yhahn Exp $
+// $Id: openatrium.profile,v 1.8 2010/03/04 16:58:44 yhahn Exp $
 
 /**
  * Implementation of hook_profile_details().
@@ -51,6 +51,8 @@ function openatrium_profile_modules() {
     'token',
     // Transliteration
     'transliteration',
+    // Libraries
+    'libraries',
     // Messaging
     'messaging', 'messaging_mail',
     // Notifications
