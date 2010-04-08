@@ -1,5 +1,5 @@
 <?php
-// $Id: openatrium.profile,v 1.8 2010/03/04 16:58:44 yhahn Exp $
+// $Id: openatrium.profile,v 1.9 2010/04/08 16:24:49 jmiccolis Exp $
 
 /**
  * Implementation of hook_profile_details().
@@ -36,7 +36,7 @@ function openatrium_profile_modules() {
     // Views
     'views', 'litenode',
     // OG
-    'og', 'og_access', 'og_views',
+    'og', 'og_access', 'og_actions', 'og_views',
     // CTools
     'ctools',
     // Context
@@ -51,8 +51,6 @@ function openatrium_profile_modules() {
     'token',
     // Transliteration
     'transliteration',
-    // Libraries
-    'libraries',
     // Messaging
     'messaging', 'messaging_mail',
     // Notifications
@@ -116,6 +114,8 @@ function _openatrium_atrium_modules() {
     'boxes', 'comment_upload', 'diff', 'prepopulate', 'xref',
     // DesignKit
     'color', 'designkit',
+    // VBO
+    'views_bulk_operations',
   );
 }
 
