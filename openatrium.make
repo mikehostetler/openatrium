@@ -1,4 +1,4 @@
-; $Id: openatrium.make,v 1.48 2010/06/22 16:00:17 jmiccolis Exp $
+; $Id: openatrium.make,v 1.49 2010/06/22 16:11:39 jmiccolis Exp $
 core = "6.x"
 
 ; Contrib projects 
@@ -65,7 +65,7 @@ projects[mailcomment][subdir] = "contrib"
 projects[mailcomment][version] = "1.0"
 
 projects[mailhandler][subdir] = "contrib"
-projects[mailhandler][version] = "1.10"
+projects[mailhandler][version] = "1.11"
 
 projects[markdown][subdir] = "contrib"
 projects[markdown][version] = "1.2"
