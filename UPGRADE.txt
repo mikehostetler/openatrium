@@ -1,6 +1,6 @@
-# $Id: UPGRADE.txt,v 1.4 2010/04/08 16:59:39 jmiccolis Exp $
+# $Id: UPGRADE.txt,v 1.5 2010/06/22 20:08:08 jmiccolis Exp $
 
-Upgrading to Atrium 1.0 beta 6
+Upgrading to Atrium 1.0 beta 7
 ==============================
 
 _note: If upgrading a version older than beta 4, update to beta 4 first_
