@@ -1,4 +1,4 @@
-# $Id: README.txt,v 1.8 2010/06/22 13:15:29 jmiccolis Exp $
+# $Id: README.txt,v 1.9 2010/06/23 20:27:59 jmiccolis Exp $
 
 RESOURCES
 
@@ -44,4 +44,5 @@ not supported.
 
 The Atrium core theme Ginkgo is designed for at least a 1024x768 resolution, but
 there is a Ginkgo Thin variant that can be used with 800x600.
+
 
