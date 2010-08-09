@@ -1,5 +1,5 @@
 <?php
-// $Id: openatrium.profile,v 1.11 2010/08/09 15:33:47 jmiccolis Exp $
+// $Id: openatrium.profile,v 1.12 2010/08/09 22:12:32 developmentseed Exp $
 
 /**
  * Implementation of hook_profile_details().
@@ -282,15 +282,15 @@ function _openatrium_intranet_configure_check() {
   // clears/rebuilds actually set variables or other settings that would count
   // as overrides. See `og_node_type()`.
   $revert = array(
-    'atrium' => array('user', 'variable', 'filter'),
-    'atrium_blog' => array('user', 'variable'),
-    'atrium_book' => array('user', 'variable'),
-    'atrium_calendar' => array('user', 'variable'),
+    'atrium' => array('user_role', 'user_permission', 'variable', 'filter'),
+    'atrium_blog' => array('user_permission', 'variable'),
+    'atrium_book' => array('user_permission', 'variable'),
+    'atrium_calendar' => array('user_permission', 'variable'),
     'atrium_casetracker' => array('user', 'variable'),
-    'atrium_groups' => array('user', 'variable'),
-    'atrium_members' => array('user', 'variable'),
-    'atrium_profile' => array('user', 'variable'),
-    'atrium_shoutbox' => array('user', 'variable'),
+    'atrium_groups' => array('user_permission', 'variable'),
+    'atrium_members' => array('user_permission', 'variable'),
+    'atrium_profile' => array('user_permission', 'variable'),
+    'atrium_shoutbox' => array('user_permission', 'variable'),
   );
   features_revert($revert);
 }
