@@ -1,5 +1,5 @@
 <?php
-// $Id: openatrium.profile,v 1.12 2010/08/09 22:12:32 developmentseed Exp $
+// $Id: openatrium.profile,v 1.13 2010/08/09 22:14:15 developmentseed Exp $
 
 /**
  * Implementation of hook_profile_details().
@@ -286,7 +286,7 @@ function _openatrium_intranet_configure_check() {
     'atrium_blog' => array('user_permission', 'variable'),
     'atrium_book' => array('user_permission', 'variable'),
     'atrium_calendar' => array('user_permission', 'variable'),
-    'atrium_casetracker' => array('user', 'variable'),
+    'atrium_casetracker' => array('user_permission', 'variable'),
     'atrium_groups' => array('user_permission', 'variable'),
     'atrium_members' => array('user_permission', 'variable'),
     'atrium_profile' => array('user_permission', 'variable'),
