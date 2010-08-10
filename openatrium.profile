@@ -1,5 +1,5 @@
 <?php
-// $Id: openatrium.profile,v 1.13 2010/08/09 22:14:15 developmentseed Exp $
+// $Id: openatrium.profile,v 1.14 2010/08/10 15:05:37 yhahn Exp $
 
 /**
  * Implementation of hook_profile_details().
@@ -61,8 +61,6 @@ function openatrium_profile_modules() {
     'openidadmin',
     // PURL
     'purl',
-    // Seed
-    'seed',
     // Spaces
     'spaces', 'spaces_user', 'spaces_og',
     // Ucreate
@@ -111,7 +109,7 @@ function _openatrium_atrium_modules() {
     // Formats
     'codefilter', 'markdown',
     // Others
-    'boxes', 'comment_upload', 'diff', 'prepopulate', 'xref',
+    'boxes', 'comment_upload', 'crayon', 'diff', 'itweak_upload', 'imagecache_profiles', 'nodeformcols', 'prepopulate', 'reldate', 'xref',
     // DesignKit
     'color', 'designkit',
   );
