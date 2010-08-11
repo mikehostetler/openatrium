@@ -1,4 +1,4 @@
-; $Id: openatrium.make,v 1.59 2010/08/11 04:02:58 yhahn Exp $
+; $Id: openatrium.make,v 1.60 2010/08/11 22:30:06 jmiccolis Exp $
 core = "6.x"
 
 ; Contrib projects 
@@ -169,7 +169,10 @@ projects[schema][subdir] = "developer"
 projects[schema][version] = "1.7"
 
 projects[simpletest][subdir] = "developer"
-projects[simpletest][version] = "2.10"
+projects[simpletest][type] = "module"
+projects[simpletest][download][type] = "cvs"
+projects[simpletest][download][module] = "contributions/modules/simpletest"
+projects[simpletest][download][revision] = "DRUPAL-6--2:2010-01-27"
 
 ; Features
 projects[atrium_features][type] = "module"
