@@ -1,4 +1,4 @@
-; $Id: openatrium.make,v 1.67 2010/08/12 21:04:49 yhahn Exp $
+; $Id: openatrium.make,v 1.68 2010/08/16 14:37:57 developmentseed Exp $
 core = "6.x"
 
 ; Contrib projects 
@@ -32,6 +32,9 @@ projects[crayon][version] = "1.0-beta1"
 
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.7"
+
+projects[date][subdir] = "contrib"
+projects[date][version] = "2.6"
 
 projects[designkit][subdir] = "contrib"
 projects[designkit][version] = "1.0-beta1"
@@ -123,15 +126,6 @@ projects[ucreate][subdir] = "contrib"
 projects[ucreate][version] = "1.0-beta4"
 
 ; Patched
-projects[date][subdir] = "contrib"
-projects[date][type] = "module"
-projects[date][download][type] = "cvs"
-projects[date][download][module] = "contributions/modules/date"
-projects[date][download][revision] = "DRUPAL-6--2:2010-06-20"
-projects[date][patch][] = "http://drupal.org/files/issues/date-772180-element-description-1.patch"
-; http://drupal.org/node/552154
-projects[date][patch][] = "http://drupal.org/files/issues/date-first-day-inconsistency-552154-2.patch"
-
 projects[views][subdir] = "contrib"
 projects[views][type] = "module"
 projects[views][version] = "2.11"
