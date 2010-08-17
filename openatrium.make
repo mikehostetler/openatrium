@@ -1,4 +1,4 @@
-; $Id: openatrium.make,v 1.68 2010/08/16 14:37:57 developmentseed Exp $
+; $Id: openatrium.make,v 1.69 2010/08/17 18:44:41 developmentseed Exp $
 core = "6.x"
 
 ; Contrib projects 
@@ -8,9 +8,6 @@ projects[admin][version] = "2.0-rc1"
 
 projects[boxes][subdir] = "contrib"
 projects[boxes][version] = "1.0-beta11"
-
-projects[casetracker][subdir] = "contrib"
-projects[casetracker][version] = "1.0-beta8"
 
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.8"
@@ -126,6 +123,11 @@ projects[ucreate][subdir] = "contrib"
 projects[ucreate][version] = "1.0-beta4"
 
 ; Patched
+projects[casetracker][subdir] = "contrib"
+projects[casetracker][version] = "1.0-beta8"
+;http://drupal.org/node/839926
+projects[casetracker][patch][] = "http://drupal.org/files/issues/casetracker-839926-1.patch"
+
 projects[views][subdir] = "contrib"
 projects[views][type] = "module"
 projects[views][version] = "2.11"
