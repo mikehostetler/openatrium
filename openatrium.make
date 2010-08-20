@@ -1,4 +1,4 @@
-; $Id: openatrium.make,v 1.74 2010/08/20 20:13:25 yhahn Exp $
+; $Id: openatrium.make,v 1.75 2010/08/20 20:34:01 yhahn Exp $
 core = "6.x"
 
 ; Contrib projects 
@@ -170,9 +170,8 @@ projects[simpletest][download][module] = "contributions/modules/simpletest"
 projects[simpletest][download][revision] = "DRUPAL-6--2:2010-01-27"
 
 ; Features
-projects[atrium_features][type] = "module"
-projects[atrium_features][download][type] = "git"
-projects[atrium_features][download][url] = "git://github.com/developmentseed/atrium_features.git"
+projects[atrium_features][location] = "http://code.developmentseed.org/fserver"
+projects[atrium_features][version] = "1.0-alpha6"
 
 ; l10n
 projects[core_translation][subdir] = "l10n"
