@@ -1,4 +1,4 @@
-; $Id: openatrium.make,v 1.73 2010/08/20 17:29:36 yhahn Exp $
+; $Id: openatrium.make,v 1.74 2010/08/20 20:13:25 yhahn Exp $
 core = "6.x"
 
 ; Contrib projects 
@@ -196,7 +196,7 @@ projects[rubik][location] = "http://code.developmentseed.org/fserver"
 projects[rubik][version] = "2.0-beta6"
 
 projects[ginkgo][location] = "http://code.developmentseed.org/fserver"
-projects[ginkgo][version] = "1.0-alpha5"
+projects[ginkgo][version] = "1.0-alpha6"
 
 ; Libraries
 libraries[jquery_ui][download][type] = "get"
