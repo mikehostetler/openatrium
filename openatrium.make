@@ -1,4 +1,4 @@
-; $Id: openatrium.make,v 1.78 2010/08/24 05:13:18 yhahn Exp $
+; $Id: openatrium.make,v 1.79 2010/08/24 06:06:41 yhahn Exp $
 core = "6.x"
 
 ; Contrib projects 
@@ -99,9 +99,7 @@ projects[parser_ical][subdir] = "contrib"
 projects[parser_ical][version] = "2.0-alpha2"
 
 projects[prepopulate][subdir] = "contrib"
-projects[prepopulate][version] = "2.0"
-; http://drupal.org/node/360613#comment-3319884
-projects[prepopulate][patch][] = "http://drupal.org/files/issues/360613_20100812.patch"
+projects[prepopulate][version] = "2.1"
 
 projects[purl][subdir] = "contrib"
 projects[purl][version] = "1.0-beta13"
