@@ -1,4 +1,4 @@
-; $Id: openatrium.make,v 1.81 2010/10/20 17:29:27 yhahn Exp $
+; $Id: openatrium.make,v 1.82 2010/10/20 20:59:30 yhahn Exp $
 core = "6.x"
 
 ; Contrib projects 
@@ -187,8 +187,10 @@ projects[l10n_update][location] = "http://code.developmentseed.org/fserver"
 projects[l10n_update][version] = "1.0-alpha1"
 
 ; Themes
-projects[tao][location] = "http://code.developmentseed.org/fserver"
-projects[tao][version] = "3.1"
+projects[tao][type] = "theme"
+projects[tao][download][type] = "cvs"
+projects[tao][download][module] = "contributions/themes/tao"
+projects[tao][download][revision] = "DRUPAL-6--3"
 
 projects[rubik][location] = "http://code.developmentseed.org/fserver"
 projects[rubik][version] = "3.0-beta1"
